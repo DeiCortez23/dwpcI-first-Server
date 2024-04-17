@@ -1,0 +1,31 @@
+{
+  "name": "first-server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Primer servidor web basado en Node",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x",
+    "npm": "7.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "node",
+    "pwpcI",
+    "itgam"
+  ],
+  "author": "@David",
+  "license": "MIT"
+
+  
+
+}
+
