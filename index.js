@@ -8,12 +8,14 @@ import http from "http";
 
 
 const server = http.createServer((req, res) => {
-  // Creando un logger de peticiones
-    console.log(`📣 CLIENT-REQUEST: ${req.method} ${req.url}`);
-    console.log(`url: ${JSON.stringify(req.headers, null, "\t")}`);
-    res.write("Check the system terminal...")
-    res.end();
-  }); 
+  console.log("> Se ha recibido una petición."); 
+  // Respondemos 
+  res.write("Hola");
+  // Se termina la conexión
+	res.end();
+  // Apagando el server
+  process.exit();
+});
   
 
 // 3. Se pone a trabajar el servidor 
